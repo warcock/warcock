@@ -10,7 +10,8 @@ public:
   static std::vector<std::string> Languages()
   {
     return {
-      "English"
+      "English",
+      "Thai",
     };
   }
 
@@ -20,7 +21,8 @@ public:
       "Python",
       "JavaScript",
       "TypeScript",
-      "C++"
+      "C++",
+      "Lua"
     };
   }
 
