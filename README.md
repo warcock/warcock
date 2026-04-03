@@ -38,7 +38,7 @@ public:
   static std::unordered_map<std::string, std::string> Socials()
   {
     return {
-      { "github", "your-username" } // optional, keep minimal
+      { "github", "warcock" } 
     };
   }
 };
