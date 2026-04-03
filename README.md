@@ -1,3 +1,4 @@
+```cpp
 class AboutMe final
 {
 public:
@@ -37,7 +38,8 @@ public:
   static std::unordered_map<std::string, std::string> Socials()
   {
     return {
-      { "github", "warcock" }
+      { "github", "your-username" } // optional, keep minimal
     };
   }
 };
+```
