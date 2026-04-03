@@ -1,16 +1,43 @@
-## Hi there 👋
+class AboutMe final
+{
+public:
+  static std::string Name()
+  {
+    return "Zen";
+  }
 
-<!--
-**warcock/warcock** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  static std::vector<std::string> Languages()
+  {
+    return {
+      "English"
+    };
+  }
 
-Here are some ideas to get you started:
+  static std::vector<std::string> CodingLanguages()
+  {
+    return {
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "C++"
+    };
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  static std::vector<std::string> Skillset()
+  {
+    return {
+      "Web Development",
+      "UI/UX",
+      "Backend Systems",
+      "APIs",
+      "Database Design"
+    };
+  }
+
+  static std::unordered_map<std::string, std::string> Socials()
+  {
+    return {
+      { "github", "warcock" } // optional, keep minimal
+    };
+  }
+};
